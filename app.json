@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Aurashop",
-    "slug": "Aurashop",
+    "slug": "aurashop",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logogg.png",
@@ -29,7 +29,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logogg.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -49,6 +52,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d3f08d1d-8102-4c4e-bac3-2a25cec9eaf4"
+      }
+    },
+    "owner": "shiro07082549"
   }
 }
